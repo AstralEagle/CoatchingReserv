@@ -1,0 +1,57 @@
+
+#agenda{
+    width: 80px;
+    list-style-type:none;
+    margin-left: -20px;
+}
+#core{
+    display: flex;
+    margin-top: 100px;
+}
+#agenda li{
+    width: 80px;
+    border: 1px black solid;
+    text-align: right;
+}
+#agenda li.occuper{
+    background-color: gray;
+    opacity: 0.8;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.commande{
+    margin-left: 20px;
+}
+.active{
+    color: red;
+}
+form{
+    text-align:center;
+    display: flex;
+}
+form p{
+    font-size: 15px;
+}
+input{
+    height: 15px;
+    width: 60px;
+}
+.inputReserver{
+    width: 80px;
+    height: 20px;
+    font-size: 12px;
+}
+.inputPhone{
+    width: 75px;
+}
+.inputAdress{
+    width: 180px;
+}
+.inputCode{
+    width: 40px;
+}
+.inputVille{
+    width: 110px;
+}

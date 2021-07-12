@@ -1,0 +1,103 @@
+section{
+    margin-top: 110px;
+    display: flex;
+}
+.relative{
+    position: relative;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+#listMonth{
+    list-style-type:none;
+    margin-right: 20px;
+}
+#listMonthl li{
+    margin: 10px;
+}
+.monthsList ul li:hover{
+    opacity: 0.5;
+}
+.active{
+    color: red;
+}
+.monthInfoM{
+    font-size: 35px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+.monthInfoY{
+    font-size: 15px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+th{
+    padding: 5px;
+    width: 40px;
+}
+table{
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+table td{
+    border: 1px black solid;
+    width: 40px;
+    height: 40px;
+
+}
+table td.today{
+    border: 2px red solid;
+}
+table td .days{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    bottom: -30px;
+    right: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: right;
+    
+}
+.clickCase{
+    height: 40px;
+    width: 40px;
+    position: relative;
+
+}
+table td .events{
+    position: relative;
+    width: 39px;
+    height: 0px;
+    margin:  -18px 3px 0px;
+    padding: 0px;
+    list-style-type:none;
+}
+table td .events li{
+    width: 10px;
+    height: 10px;
+    float: left;
+    background-color: black;
+    border-radius: 10px;
+    font-size: 0px;
+}
+table tr td:hover .events{
+    position: absolute;
+    left: 500px;
+    top: 116px;
+    width: 442px;
+}
+table tr td:hover .events li{
+    font-size: large;
+    background-color: white;
+    width: 150px;
+    height: 50px;
+}
+table tr td .lol{
+    opacity: 0;
+}
+table tr td:hover .lol{
+    opacity: 1;
+}
